@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="yauk.js"></script>
+	<style>
+	body {
+		direction: rtl;
+		padding:10px;
+	}
+	.ur {
+		font-family: 'Jameel Noori Nastaleeq', 'Noto Naskh Arabic', sans serif;;
+	}
+	#q {
+		border: 1px solid #ccc;
+		vertical-align: middle;
+		direction: rtl;
+		padding: 2px;
+		font-size: 16px;
+	}
+	#kb {
+		width:500px;
+	}
+	a {
+		color:#4ea0e8;
+		text-decoration:none;
+	}
+	</style>
+	<script>
+		$(function() {
+			$('#q').setUrduInput();
+			$('#q').focus();
+		});
+	</script>
+  </head>
+  <body>
+	<form>
+		<p class="ur">انگریزی کی بورڈ سے اردو لکھیں: اپنی ویب سائٹ پر استعمال کرنے کے لیے jQueryکا پلگ اِن <a href="https://github.com/awaisathar/yauk" target="_blank">یہاں سے حاصل کریں</a></p>
+		<p><input type="text"  class="ur" id="q" size="40" value=""/></p>
+		<p><img id="kb" src="kb.png"/></p>
+	</form>
+  </body>
+</html>
