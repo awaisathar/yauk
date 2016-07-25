@@ -6,6 +6,7 @@ Some of them are phonetic, some not.<br/>
 Some are open-source, some not.<br/>
 Some have keys that you can press, some don't.<br/>
 Some work on mobile phones, some don't.<br/>
+I couldn't find one with all the features so I made one.<br/>
 
 This is a phonetic open-source mobile enabled jQuery plugin which enables typing in Urdu using an English keyboard.<br/>
 
@@ -13,6 +14,13 @@ This is a phonetic open-source mobile enabled jQuery plugin which enables typing
 // This line sets enables Urdu input for the input box with id q.
 $('#q').setUrduInput();
 ```
+
+The keyboard mapping is given in the file kb.png <br/>
+![Urdu Keymap](https://github.com/awaisathar/yauk/raw/master/kb.png "Urdu Keymap")
+
+A [demo can be seen here](http://awaisathar.github.io) as well as on [urduthesaurus.com](http://urduthesaurus.com)
+
+Yes, it has bugs. Mobile version doesn't work perfectly. Please contribute: I accept pull requests.
 
 
 
