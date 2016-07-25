@@ -18,7 +18,7 @@ $('#q').setUrduInput();
 The keyboard mapping is given in the file kb.png <br/>
 <img width="500" src ="kb.png"/>
 
-A [demo can be seen here](http://awaisathar.github.io) as well as on [urduthesaurus.com](http://urduthesaurus.com)
+A [demo can be seen here](http://awaisathar.github.io/yauk) as well as on [urduthesaurus.com](http://urduthesaurus.com)
 
 Yes, it has bugs. Mobile version doesn't work perfectly. Please contribute: I accept pull requests.
 
