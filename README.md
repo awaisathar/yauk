@@ -16,7 +16,7 @@ $('#q').setUrduInput();
 ```
 
 The keyboard mapping is given in the file kb.png <br/>
-<img style="width:500px !important" src ="kb.png"/>
+<img width="500" src ="kb.png"/>
 
 A [demo can be seen here](http://awaisathar.github.io) as well as on [urduthesaurus.com](http://urduthesaurus.com)
 
