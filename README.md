@@ -10,10 +10,13 @@ I couldn't find one with all the features so I made one.<br/>
 
 This is a phonetic open-source mobile enabled jQuery plugin which enables typing in Urdu using an English keyboard.<br/>
 
-```javascript
-// This line sets enables Urdu input for the input box with id q.
-$('#q').setUrduInput();
-```
+## Instructions to use
+- Download/clone this repository and get `yauk.min.js` or `yauk.js`
+- Place it in your assets and include it with`<script src="path/to/yauk.min.js"></script>` after including jQuery
+- Set Urdu input for the input box with an id e.g.
+  ```javascript
+   $('#q').setUrduInput();
+  ```
 
 The keyboard mapping is given in the file kb.png <br/>
 <img width="500" src ="kb.png"/>
