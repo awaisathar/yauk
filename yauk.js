@@ -4,7 +4,7 @@ $.fn.setUrduInput = function (options)
 	var last = '';
 	$(this).bind('input', function ()
 	{
-		var pos = document.querySelector("#q").selectionEnd;
+		var pos = $(this)[0].selectionEnd;
 		var s = $(this).val();		
 		var isLastPos = (pos==s.length);
 		if (last==s) return;
@@ -17,7 +17,7 @@ $.fn.setUrduInput = function (options)
 		$(this).val(S.join(''));
 		last = $(this).val();
 		if (!isLastPos) {
-			document.querySelector("#q").selectionStart = document.querySelector("#q").selectionEnd = pos;
+			$(this)[0].selectionStart = $(this)[0].selectionEnd = pos;
 		}
 	});
 };
