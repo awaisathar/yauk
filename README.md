@@ -17,7 +17,7 @@ This is a phonetic open-source mobile enabled jQuery plugin which enables typing
   ```javascript
    $('#q').setUrduInput();
   ```
-- By default numerals are English. For urdu numerals pass an option 
+- By default numerals are English. For urdu, pass `urduNumerals: true` in options 
   ```javascript
    $('#q').setUrduInput({urduNumerals: true});
   ```
