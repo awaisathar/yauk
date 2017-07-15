@@ -17,6 +17,12 @@ This is a phonetic open-source mobile enabled jQuery plugin which enables typing
   ```javascript
    $('#q').setUrduInput();
   ```
+- By default numerals are English. For urdu numerals pass an option 
+  ```javascript
+   $('#q').setUrduInput({urduNumerals: true});
+  ```
+
+
 
 The keyboard mapping is given in the file kb.png <br/>
 <img width="500" src ="kb.png"/>
