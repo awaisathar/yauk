@@ -13,7 +13,7 @@ This is a phonetic open-source mobile enabled jQuery plugin which enables typing
 ## Instructions to use
 - Download/clone this repository and get `yauk.min.js` or `yauk.js`
 - Place it in your assets and include it with`<script src="path/to/yauk.min.js"></script>` after including jQuery
-- Set Urdu input for the input box with an id e.g.
+- Set Urdu input for the input field or textarea with an id e.g.
   ```javascript
    $('#q').setUrduInput();
   ```
