@@ -57,7 +57,7 @@ urduInput_Element_Object.destroy();
 | buttons |    Array   |   ```["language","layout"]``` |
 | default_language | string |    ```"UR"``` |
 | default_style | boolean | ```true``` |
-
+| default_image | string | remote link |
 
 
 
